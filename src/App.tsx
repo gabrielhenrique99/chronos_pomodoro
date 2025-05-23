@@ -1,9 +1,15 @@
+import { Heading } from './components/Heading';
+
+import './styles/theme.css'
+import './styles/global.css'
+
+
 function App() {
     console.log('Oi');
 
     return (
         <>
-            <h1>Olá mundo do App</h1>
+            <Heading>Olá Mundo!!!</Heading>
         </>
         
     ) 
