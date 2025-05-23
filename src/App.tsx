@@ -1,15 +1,20 @@
-import { Heading } from './components/Heading';
+import { Container } from './components/Container'
+import { Heading } from './components/Heading'
+import { Logo } from './components/Logo'
+import { Menu } from './components/Menu'
+
 
 import './styles/theme.css'
 import './styles/global.css'
 
 
+
 function App() {
-    console.log('Oi');
 
     return (
         <>
-            <Heading>Olá Mundo!!!</Heading>
+            <Container><Heading><Logo/></Heading></Container>
+            <Container><Heading><Menu /></Heading></Container>
         </>
         
     ) 
